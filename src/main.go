@@ -21,7 +21,10 @@ func main() {
 	for {
 		for _, log_message := range app_config.Messages {
 			time.Sleep(time.Duration(log_message.Delay) * time.Millisecond)
-			fmt.Println(log_message.Message)
+			_, err = fmt.Println(log_message.Message)
+			if err != nil {
+				panic(err)
+			}
 		}
 	}
 }
