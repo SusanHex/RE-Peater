@@ -12,7 +12,7 @@
             "mode": "auto",
             "program": "src/main.go",
             "env": {
-                "MESSAGES": "hello world;;<<200 hello world 2;;<<20000 hello world"
+                "MESSAGES": "hello world;;<<200 hello world 2;;<<20000 hello world 3"
             }
         }
     ]
