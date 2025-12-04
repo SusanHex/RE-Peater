@@ -1,5 +1,5 @@
 # RE-Peater
-This tool is intended to print user defined text to the standard output at user defined intervals. Mainly intended to help debug [RE-Actor](https://github.com/SusanHex/RE-Actor "Reactors Github"):.
+This tool is intended to print user defined text to the standard output at user defined intervals. Mainly intended to help debug [RE-Actor](https://github.com/SusanHex/RE-Actor "Reactors Github").
 
 Here are the variables used to configure RE-Peater:
 
